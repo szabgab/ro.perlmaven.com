@@ -40,7 +40,7 @@ jobs:
           ./code-maven web --pages sites/ro/pages --config sites/ro/config.yaml
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
 
   # Deployment job
   deploy:
